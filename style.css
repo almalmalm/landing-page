@@ -69,12 +69,12 @@ header .text {
     gap: 8px;
 }
 
-header .image {
-    background-color: #7d7c7c;
+header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5e7eb;
+    max-width: 400px;
+    border-radius: 10px;
 }
 
 header .button {
