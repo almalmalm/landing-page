@@ -69,10 +69,12 @@ header .text {
     gap: 8px;
 }
 
-header img {
+header .image.item {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+}
+
+header img {
     max-width: 400px;
     border-radius: 10px;
 }
